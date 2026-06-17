@@ -21,7 +21,7 @@ conda activate rmats
 # Definition of HOME directory and retrieval of the RefSeq mice (mm39) annotation data from NCBI (in GTF format). 
 
 home_dir=$(cd ~ && pwd)
-annotation_file=${home_dir}/Initial_data/mm39.ncbiRefSeq.gtf
+annotation_file=${home_dir}/Initial_data/proof_mm39.ncbiRefSeq.gtf
 
 
 # Creation of all the possible combinations between each eleent of the control array and the corresponding test comparison.
